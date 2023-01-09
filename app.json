@@ -1,5 +1,5 @@
 {
-    "name": "CYNITE",
+    "name": "plugins",
     "description": "When you going to send file on telegram channel this bot will save that in database, So you can search that easily in inline mode",
     "stack": "container",
     "keywords": [
@@ -66,11 +66,11 @@
             "description": "Username or ID of users to give access of inline search. Separate multiple users by space.\nLeave it empty if you don't want to restrict bot usage.",
             "required": false
         },
-        "AUTH_CHANNEL": {
+        "UPDATES_CHANNEL": {
             "description": "ID of channel.Make sure bot is admin in this channel. Without subscribing this channel users cannot use bot.",
             "required": false
         },
-        "DATABASE_URI": {
+        "DATABASE_URL": {
             "description": "mongoDB URI. Get this value from https://www.mongodb.com.",
             "required": true
         },
